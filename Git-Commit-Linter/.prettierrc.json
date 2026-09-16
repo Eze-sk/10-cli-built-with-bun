@@ -1,0 +1,23 @@
+{
+  "singleQuote": true,
+  "trailingComma": "none",
+  "semi": false,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "importOrder": [
+    "^react$",
+    "^react-dom$",
+    "^ink$",
+    "^@inkjs/(.*)$",
+    "^@/(.*)$",
+    "^@bin/(.*)$",
+    "^@commands/(.*)$",
+    "^@components/(.*)$",
+    "^@constants/(.*)$",
+    "^@hooks/(.*)$",
+    "^@services/(.*)$",
+    "^@utils/(.*)$",
+    "^[./]"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
