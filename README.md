@@ -1,46 +1,41 @@
-# 10 CLI Tools Built with Node.js
 
-This repository is a collection of practical command-line applications built with Node.js to explore real-world developer workflows, automation, and terminal-first UX. Each project focuses on solving a specific problem in a compact, usable, and developer-friendly way.
+<h1 align="center">
+  <br>
+  <a href="https://github.com/Eze-sk"><img src="http://avatars.githubusercontent.com/u/210684100?v=4" alt="logo eze-sk" width="200"></a>
+  <br>
+  10 CLI Tools Built with Node.js
+  <br>
+</h1>
 
-## Project directory
+<h4 align="center">A collection of 10 practical, developer-friendly Node.js CLI tools designed for real-world workflow automation.</h4>
 
-| Tool / Name | Type | Description |
-| --- | --- | --- |
-| [Git-Commit-Linter](./Git-Commit-Linter) | TUI / command | AI-powered Git commit message generator that helps turn code changes into clear, meaningful commit summaries from either the terminal UI or shell commands. |
+<div align="center">
+
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+
+</div>
+
+## ✨ Projects
+
+| # | Project           | Description                               | Tech Stack                | Code                                                                                                                                                                                    |
+| - | ----------------- | ----------------------------------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |                                                       
+| 1 | Git-Commit-Linter | AI-powered CLI & TUI for commit messages. | `Bun` `TypeScript` `ink`  | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)](https://github.com/Eze-sk/10-cli-built-with-node/tree/main/Git-Commit-Linter) |
 
 ## Tool summaries
 
-### [Git-Commit-Linter](./Git-Commit-Linter)
+### [Git-Commit-Linter](https://github.com/Eze-sk/10-cli-built-with-node/tree/main/Git-Commit-Linter)
 
-Git-Commit-Linter is a terminal-first AI assistant designed to generate smart Git commit messages based on the changes in your repository. It helps developers move faster by suggesting concise, relevant commit text instead of writing generic messages by hand.
+AI assistant (CLI/TUI) that analyzes repository changes and generates meaningful Git commit messages automatically.
 
-How to use it:
+* **Quick Start:** `cd Git-Commit-Linter` → `bun install` → `bun run dev`
+* **Features:** Guided TUI, quick terminal commands, configurable AI keys.
 
-1. Open the project folder:
-   ```bash
-   cd Git-Commit-Linter
-   ```
-2. Install dependencies:
-   ```bash
-   bun install
-   ```
-3. Start the interactive interface:
-   ```bash
-   bun run dev
-   ```
-   or run the CLI directly in command mode:
-   ```bash
-   cli-cmt-git commit --all
-   ```
-4. If needed, configure your AI provider key:
-   ```bash
-   cli-cmt-git config --set-key "your-api-key-here"
-   ```
-
-The project supports both a guided TUI flow and a faster command-line workflow, making it useful for quick generation as well as automation in a Git-based development process.
+👉 **[View full setup and usage guide →](https://github.com/Eze-sk/10-cli-built-with-node/blob/main/Git-Commit-Linter/README.md)**
 
 ## Credits
 
-Developed by [ezesk](https://github.com/Eze-sk)
+Developed by <a href="https://github.com/Eze-sk">ezesk <img src="http://avatars.githubusercontent.com/u/210684100?v=4" alt="logo eze-sk" width="20"></a>
 
-This project is licensed under the MIT License.
+This project is licensed under the GNU General Public License v2.0 (GPL-2.0).
