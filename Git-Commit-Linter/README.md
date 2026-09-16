@@ -1,148 +1,68 @@
-# AI Commit CLI (cli-cmt-git)
+<h1 align="center">
+  <br>
+  <a href="https://github.com/Eze-sk"><img src="http://avatars.githubusercontent.com/u/210684100?v=4" alt="logo eze-sk" width="200"></a>
+  <br>
+     AI Commit CLI (cli-cmt-git)
+  <br>
+</h1>
 
-This project is part of the group of 10 CLI tools built with Node.js, created to showcase practical command-line utilities in a modern developer workflow.
+<h4 align="center">
+   An AI-powered CLI & TUI assistant for generating smart Git commit messages from your terminal.
+</h4>
 
-`cli-cmt-git` is a terminal-first AI assistant for generating smart Git commit messages based on the code changes in your repository. It helps you move faster without writing generic commit text by hand.
+<div align="center">
+
+![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![Ink](https://img.shields.io/badge/Ink-000000?style=for-the-badge&logo=ink&logoColor=white)
+![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
+
+</div>
 
 ![mockups](./mockups.webp)
 
-## Overview
+## Features & Modes
 
-This CLI gives you two ways to generate commit messages:
+* **Interactive TUI:** Run `cli-cmt-git` for a guided, visual interface.
+* **Direct Commands:** Run `cli-cmt-git commit` for fast shell automation.
+* **Smart AI:** Generates commit messages from all staged changes or specific files.
 
-1. Interactive TUI mode
-   - Launch the app without subcommands.
-   - A simple, intuitive terminal interface guides you through the process.
-   - Ideal for quick, visual usage and experimentation.
-
-2. Command mode
-   - Use the CLI directly from the shell.
-   - Perfect for automation, scripting, and working inside Git workflows.
-
-The app is built to support both human-friendly terminal flows and developer-friendly command-line usage.
-
-## Features
-
-- AI-generated Git commit messages from staged or selected files
-- Simple interactive TUI experience
-- Command-driven workflow for terminal users
-- API key configuration for supported AI providers
-- Support for generating commit suggestions for all files or a specific file
-- Built for modern Node.js CLI development
-
-## Usage
+## Quick Start
 
 ```bash
-$ cli-cmt-git [command] [options]
-```
-
-### Default interactive mode
-
-Running the CLI without any subcommand launches the TUI:
-
-```bash
-$ cli-cmt-git
-```
-
-This opens a guided Terminal User Interface that helps you configure options and generate the commit message visually.
-
-### Commands
-
-```bash
-$ cli-cmt-git commit
-$ cli-cmt-git commit --all
-$ cli-cmt-git commit src/index.js
-$ cli-cmt-git config --set-key "your-api-key-here"
-```
-
-### Help
-
-```bash
-$ cli-cmt-git --help
-```
-
-## Installation
-
-This project uses Bun as the package manager and runtime for local development.
-
-### Requirements
-
-- Bun 1.3.5 or newer
-- Node.js >= 18 (for compatibility with the project runtime environment)
-
-### Install dependencies
-
-```bash
-bun install
-```
-
-### Start the CLI in dev mode
-
-```bash
-bun run dev
-```
-
-### Build the project
-
-```bash
-bun run build
-```
-
-### Lint and format
-
-```bash
-bun run lint
-bun run format
-```
-
-## Bun usage rules
-
-Use Bun for all project commands instead of npm, yarn, or pnpm.
-
-Recommended workflow:
-
-```bash
-bun install
-bun run dev
-bun run build
-bun run lint
-```
-
-This repo is configured with `packageManager: "bun@1.3.5"`, so the expected workflow is Bun-first. Avoid installing dependencies through other package managers unless explicitly required for a custom environment.
-
-## Example usage flow
-
-1. Install dependencies:
-
-```bash
-bun install
-```
-
-2. Set your API key:
-
-```bash
+# Set up API key
 cli-cmt-git config --set-key "your-api-key-here"
-```
 
-3. Run the interactive UI:
-
-```bash
+# Run TUI or generate commit directly
 cli-cmt-git
-```
-
-4. Or generate a commit directly:
-
-```bash
 cli-cmt-git commit --all
-```
-
-## Project context
-
-This is a simple but useful Git productivity tool in the spirit of the 10 CLI tools built with Node.js challenge. It focuses on an elegant developer experience with both a guided TUI and a faster command-line flow.
-
 ## Notes
 
 - The default entrypoint opens the TUI when no command is provided.
 - `commit` can operate on staged changes or a specific file path.
 - `config` is used to manage AI service credentials and related settings.
 - This project is still best used as a local developer utility for generating commit message suggestions.
+```
+
+### CLI Reference
+
+```bash
+cli-cmt-git                         # Launch interactive TUI
+cli-cmt-git commit [--all | <file>] # Generate commit message
+cli-cmt-git config --set-key <key>  # Save AI API key
+cli-cmt-git --help                  # View all options
+```
+
+### Local Development
+
+```bash
+bun install    # Install dependencies
+bun run dev    # Start dev mode
+bun run build  # Build project
+```
+
+## Credits
+
+Developed by <a href="https://github.com/Eze-sk">ezesk <img src="http://avatars.githubusercontent.com/u/210684100?v=4" alt="logo eze-sk" width="20"></a>
+
+This project is licensed under the GNU General Public License v2.0 (GPL-2.0).
