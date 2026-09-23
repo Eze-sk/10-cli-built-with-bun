@@ -3,15 +3,14 @@
   <br>
   <a href="https://github.com/Eze-sk"><img src="http://avatars.githubusercontent.com/u/210684100?v=4" alt="logo eze-sk" width="200"></a>
   <br>
-  10 CLI Tools Built with Node.js
+  10 CLI Tools Built with Bun
   <br>
 </h1>
 
-<h4 align="center">A collection of 10 practical, developer-friendly Node.js CLI tools designed for real-world workflow automation.</h4>
+<h4 align="center">A collection of 10 practical, developer-friendly Bun CLI tools designed for real-world workflow automation.</h4>
 
 <div align="center">
 
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Bun](https://img.shields.io/badge/Bun-000000?style=for-the-badge&logo=bun&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 
@@ -21,7 +20,7 @@
 
 | # | Project           | Description                               | Tech Stack                | Code                                                                                                                                                                                    |
 | - | ----------------- | ----------------------------------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |                                                       
-| 1 | Git-Commit-Linter | AI-powered CLI & TUI for commit messages. | `Bun` `TypeScript` `ink`  | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)](https://github.com/Eze-sk/10-cli-built-with-node/tree/main/Git-Commit-Linter) |
+| 1 | Git-Commit-Linter | AI-powered CLI & TUI for commit messages. | `TypeScript` `ink`        | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)](https://github.com/Eze-sk/10-cli-built-with-node/tree/main/Git-Commit-Linter) |
 
 ## Tool summaries
 
