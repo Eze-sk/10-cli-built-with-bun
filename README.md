@@ -22,7 +22,7 @@
 | - | ----------------- | ----------------------------------------- | ------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |                                                       
 | 1 | Git-Commit-Linter | AI-powered CLI & TUI for commit messages. | `TypeScript` `ink`        | [![GitHub Badge](https://img.shields.io/badge/Código-181717?logo=github&logoColor=fff&style=flat-square)](https://github.com/Eze-sk/10-cli-built-with-node/tree/main/Git-Commit-Linter) |
 
-## Tool summaries
+## 🛠️ Tool summaries
 
 ### [Git-Commit-Linter](https://github.com/Eze-sk/10-cli-built-with-node/tree/main/Git-Commit-Linter)
 
@@ -33,7 +33,7 @@ AI assistant (CLI/TUI) that analyzes repository changes and generates meaningful
 
 👉 **[View full setup and usage guide →](https://github.com/Eze-sk/10-cli-built-with-node/blob/main/Git-Commit-Linter/README.md)**
 
-## Credits
+## 👑 Credits
 
 Developed by <a href="https://github.com/Eze-sk">ezesk <img src="http://avatars.githubusercontent.com/u/210684100?v=4" alt="logo eze-sk" width="20"></a>
 
